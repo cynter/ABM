@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Log-in</title>
+    <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/FuncionesABM.js"></script>  
+</head>
+
+  <body>
+        <tbody>
+              <tr>
+               <td>
+                 <div class="login-card">
+                    <h1>Alta Personas</h1><br>
+                       <form id="FrmAlta">
+                            <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese Nombre">
+                            <input type="text" name="Apellido" id="Apellido" placeholder="Ingrese Apellido">
+                            <input type="text" name="dni" id="dni" placeholder="Ingrese DNI">
+                            <br>
+                            <br>
+                            <button><a onclick="AgregarPersona()"><b> Agregar Persona</b></a></button>
+                     </form>
+                 </div>
+                
+            </tr>
+        </tbody>
+            <div id="GrillaPersonas" style="height:610px;overflow:auto;border-style:solid"/>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  
+  </body>
+</html>
